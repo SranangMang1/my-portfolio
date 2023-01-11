@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
-import HeroHeader from "./components/HeroHeader";
+// import HeroHeader from "./components/HeroHeader";
 // import BioSection from "./components/BioSection";
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <>
         <Navigation {...this.props}>
-          <HeroHeader {...this.props} />
+          {/* <HeroHeader {...this.props} /> */}
         </Navigation>
         {/* // <BioSection {...this.props} /> */}
       </>
