@@ -11,8 +11,11 @@ import SubjectIcon from "@mui/icons-material/Subject";
 
 export default function Navigation() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+    <Box sx={{ flexGrow: 3 }}>
+      <AppBar
+        sx={{ bgcolor: { xs: "#0bddeb", sm: "#8851f7" }, flexGrow: 1 }}
+        position="static"
+      >
         <Toolbar>
           <IconButton
             size="large"
